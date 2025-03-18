@@ -52,7 +52,11 @@ Would like to run this project locally? Open terminal and follow these steps:
     ```sh
     .venv\Scripts\activate
     ```
-4. Run file main.py or main2.py
+4. Create file .evn and add Github key
+    ```sh
+    GITHUB_TOKEN2=you github key
+    ```
+5. Run file main.py or main2.py
     ```sh
     streamlit run main.py
     ```
